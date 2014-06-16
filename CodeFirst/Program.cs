@@ -16,14 +16,14 @@ namespace CodeFirst
                 var student = new Student() { Name = "Shimi" };
                 var mathSubj = new Subject() { Name = "Mathematics" };
                 var scienceSubj = new Subject() { Name = "Data Structures" };
-
+                
                 student.Subjects.Add(mathSubj);
                 student.Subjects.Add(scienceSubj);
 
                 db.Students.Add(student);
                 db.SaveChanges();
                 /////////////////
-
+//test
             }
         }
     }
